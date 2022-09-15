@@ -19,6 +19,7 @@ img{
   color: #FFFFFF;
 }
 
+
 /*utilities*/
 .debug {
   border: 1px solid black;
@@ -31,14 +32,22 @@ img{
   margin: 0 auto;
 }
 
+.container-2 {
+  width: 52%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .d-flex {
   display: flex;
 }
 
+
 /*header*/
 header {
   justify-content: space-between;
-  position: fixed;
+  /*position: fixed;*/
+  /*momentaneamente oscurato*/
   z-index: 999;
   top: 0;
   left: 0;
@@ -101,12 +110,9 @@ header {
 }
 
 
-
-
-
 /*jumbotron*/
 .jumbotron {
-  height: 800px;
+  height: 740px;
   /*max-width: 1200px*/;
   background-color: #B4D0E7;
   margin-top: 80px;
@@ -141,15 +147,45 @@ line-height: 22px;}
   font-weight: 900;
 }
 
-
 .jumbo-img {
   width: 70%;
   min-width: 500px;
  }
 
-
-
+ 
 /*main*/
+main {
+  height: 2740px;
+}
+
+main h2 {
+  padding: 160px 0 60px;
+  font-size: 41px;
+}
+
+
+
+.annual.selector {
+  margin-left: 50px;
+}
+
+
+.billing .selector .radio-button{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 5px solid #0061FF;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+.billing .annual.selector .radio-button{
+  border: 2px solid #D1D1D4;
+}
+
+.billing .selector span {
+  font-size: 15px;
+}
 
 
 /*footer*/
